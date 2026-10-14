@@ -1,0 +1,15 @@
+streamlit==1.30.0
+# Keep the application on the CPU-only wheel used in the existing Windows venv.
+--extra-index-url https://download.pytorch.org/whl/cpu
+langchain==0.3.19
+langchain-community==0.3.19
+langchain-core==0.3.86
+langchain-text-splitters==0.3.11
+langchain-openai==0.3.35
+chromadb==1.5.9
+sentence-transformers==3.4.1
+torch==2.14.1+cpu
+pypdf>=5.0,<7
+python-dotenv==1.0.1
+pydantic==2.10.6
+pytest>=8.0,<10

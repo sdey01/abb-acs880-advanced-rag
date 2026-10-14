@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+virtual_environment/
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+chroma_db/
+data/
+*.pdf
